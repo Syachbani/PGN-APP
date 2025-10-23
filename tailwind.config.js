@@ -2,8 +2,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
+    // Tambahkan path ini:
     "./index.html",
-    "./src/app.jsx.{js,ts,jsx,tsx}", // PASTIKAN BARIS INI ADA
+    "./src/**/*.{js,ts,jsx,tsx}", 
   ],
   theme: {
     extend: {},
