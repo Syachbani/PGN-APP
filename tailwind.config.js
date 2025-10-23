@@ -3,7 +3,7 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}", // PASTIKAN BARIS INI ADA
+    "./src/app.jsx.{js,ts,jsx,tsx}", // PASTIKAN BARIS INI ADA
   ],
   theme: {
     extend: {},
