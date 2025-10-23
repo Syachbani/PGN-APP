@@ -486,6 +486,8 @@ const App = () => {
 
   return (
     <div className="bg-gray-900 text-white min-h-screen p-8 flex flex-col items-center">
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://unpkg.com/lucide@latest"></script>
       <div className="container mx-auto p-6 bg-gray-800 rounded-3xl shadow-lg max-w-2xl">
         <h1 className="text-4xl font-bold text-center mb-6 text-green-400">Otomasi Berkas ke Excel</h1>
         <p className="text-center text-gray-400 mb-8">
