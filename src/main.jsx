@@ -1,13 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './index.css'
+import './index.css' // CUKUP SATU INI
 import App from './App.jsx'
-import './index.css' // PASTIKAN IMPOR INI ADA
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
   </StrictMode>,
 )
-
-// ...
